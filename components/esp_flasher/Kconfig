@@ -1,0 +1,40 @@
+menu "My ESP32 Flasher"
+    config FLASH_BAUDRATE
+        int  "Baudrate to Flash esp"
+        default 230400
+        
+    config BOOTLOADER_ADDR_START
+        hex "Insert BootLoader Address start in Hex"
+        default 0x1000
+    
+    config PARTITION_TABLE_ADDR_START
+        hex "Insert Partition Table Address Start in Hex"
+        default  0x8000
+    
+    config APP_ADDR_START
+        hex "Insert App Address Start in Hex"
+        default 0x10000
+    
+    menu "GPIO Select"
+        config RX_GPIO
+            int "RX uart gpio"
+            default 5
+            range 0 39
+        
+        config TX_GPIO
+            int "TX uart gpio"
+            default 4
+            range 0 39
+        
+        config  RESET_GPIO
+            int "Reset gpio"
+            default 25
+            range 0 39
+        
+        config BOOTMODE_GPIO
+            int "bootmode gpio"
+            default 26
+            range 0 39
+    endmenu
+    
+endmenu
