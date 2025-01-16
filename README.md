@@ -44,7 +44,7 @@ DEFAULT: `BOOTMODE_GPIO`
 
 ## Setup
 * The flasher has a default bootloader, partition, and app images (found in the binaries folder) to turn an LED on and off.
-* To flash your images just replace the binaries in the binary folder `NOTE: the binaries must be named exactly as the original binary files`
+* To flash your images just replace the binaries in the binary folder `NOTE: the binaries must be named exactly as the original binary files:` `bootloader.bin` `partition-table.bin` `app.bin` 
 
 ## Run
 * The project is ready to run, so just use `idf.py -p [device] flash monitor` to flash the device and monitor the flashed target
