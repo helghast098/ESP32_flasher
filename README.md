@@ -10,7 +10,10 @@ Supported **target** microcontrollers
 ## Description
 * Use an ESP32 to flash another ESP32 through UART. Built upon the [esp-serial-flasher](https://github.com/espressif/esp-serial-flasher) library
 
-### Configuration
+## Note
+* To add more functionality just modify the `esp_flasher` component in the components folder
+
+## Configuration
 Configuration toggles available to user:
 * `FLASH_BAUDRATE`/`BOOTLOADER_ADDR_START`/`PARTITION_TABLE_ADDR_START`/`APP_ADDR_START`/`TX_GPIO`/`RX_GPIO`/`RESET_GPIO`/`BOOTMODE_GPIO`
 * The configurations from [esp-serial-flasher](https://github.com/espressif/esp-serial-flasher) library
