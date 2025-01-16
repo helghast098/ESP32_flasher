@@ -1,6 +1,4 @@
 #include <stdio.h>
-
-#include <iomanip>
 #include <cstring>
 
 #include "freertos/FreeRTOS.h"
