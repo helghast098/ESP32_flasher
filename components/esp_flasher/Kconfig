@@ -1,7 +1,7 @@
 menu "My ESP32 Flasher"
     config FLASH_BAUDRATE
         int  "Baudrate to Flash esp"
-        default 230400
+        default 115200
         
     config BOOTLOADER_ADDR_START
         hex "Insert BootLoader Address start in Hex"
