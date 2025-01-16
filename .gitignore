@@ -1,0 +1,11 @@
+# ignore build
+build
+
+# ignore vscode
+.vscode
+
+#ignore dependencies.lock
+dependencies.lock
+
+#ignore old sdkconfig
+sdkconfig.old
