@@ -8,7 +8,7 @@ Supported **target** microcontrollers
 - ESP32 Series
 
 ## Description
-Use an ESP32 to flash another ESP32 through UART. Built upon the [esp-serial-flasher](https://github.com/espressif/esp-serial-flasher) library
+* Use an ESP32 to flash another ESP32 through UART. Built upon the [esp-serial-flasher](https://github.com/espressif/esp-serial-flasher) library
 
 ### Configuration
 Configuration toggles available to user:
@@ -41,9 +41,10 @@ DEFAULT: `BOOTMODE_GPIO`
 
 ## Setup
 * The flasher has a default bootloader, partition, and app images (found in the binaries folder) to turn an LED on and off.
-* To flash your images, just replace the binaries in the binary folder. `NOTE: the binaries must be named exactly as the original binary files`
+* To flash your images just replace the binaries in the binary folder `NOTE: the binaries must be named exactly as the original binary files`
 
-### Run
-* The project is ready to run so just use `idf.py -p [device] flash monitor` to flash the device and monitor the flashed target
+## Run
+* The project is ready to run, so just use `idf.py -p [device] flash monitor` to flash the device and monitor the flashed target
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+## LICENSE
+* This project is licensed under the MIT License - see the LICENSE.md file for details
