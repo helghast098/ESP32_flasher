@@ -11,7 +11,7 @@ Supported **target** microcontrollers
 * Use an ESP32 to flash another ESP32 through UART. Built upon the [esp-serial-flasher](https://github.com/espressif/esp-serial-flasher) library
 
 ## Note
-* To add more functionality, like changing the host device, timeout, etc., just add to the `esp_flasher` component in the components folder
+* To add more functionality just add to or modify the `esp_flasher` component in the components folder
 
 ## Install
 * git clone as normal and run `git submodule update --init --recursive` in the main folder to download the esp-serial-flash component
