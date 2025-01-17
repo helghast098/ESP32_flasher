@@ -13,6 +13,9 @@ Supported **target** microcontrollers
 ## Note
 * To add more functionality just modify the `esp_flasher` component in the components folder
 
+## Install
+* git clone as normal and run `git submodule update --init --recursive` in the main folder to download the esp-serial-flash component
+
 ## Configuration
 Configuration toggles available to user:
 * `FLASH_BAUDRATE`/`BOOTLOADER_ADDR_START`/`PARTITION_TABLE_ADDR_START`/`APP_ADDR_START`/`TX_GPIO`/`RX_GPIO`/`RESET_GPIO`/`BOOTMODE_GPIO`
