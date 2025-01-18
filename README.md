@@ -22,7 +22,7 @@ Configuration toggles available to user:
 * The configurations from [esp-serial-flasher](https://github.com/espressif/esp-serial-flasher) library
 
 DEFAULT: `FLASH_BAUDRATE`
-* `115200`
+* `115200` // Changing has no effect currently
 
 DEFAULT: `BOOTLOADER_ADDR_START`
 * `0x1000`
